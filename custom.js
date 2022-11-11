@@ -16,8 +16,26 @@ $('body').on('click', '#ts-emma-toggle', function(e) {
   $(".ts-link--emma").toggleClass("ts-link--click--show");
 });
 
-$('body').on('click', '#ts-other-toggle', function(e) {
+$('body').on('click', '#ts-geoffery-toggle', function(e) {
   e.preventDefault();
-  $(".ts-project-container--other").toggleClass("ts-project-container--show");
-  $(".ts-link--other").toggleClass("ts-link--click--show");
+  $(".ts-project-container--geoffery").toggleClass("ts-project-container--show");
+  $(".ts-link--geoffery").toggleClass("ts-link--click--show");
+});
+
+$('body').on('click', '#ts-grace-toggle', function(e) {
+  e.preventDefault();
+  $(".ts-project-container--grace").toggleClass("ts-project-container--show");
+  $(".ts-link--grace").toggleClass("ts-link--click--show");
+});
+
+$('body').on('click', '#ts-jing-toggle', function(e) {
+  e.preventDefault();
+  $(".ts-project-container--jing").toggleClass("ts-project-container--show");
+  $(".ts-link--jing").toggleClass("ts-link--click--show");
+});
+
+$('body').on('click', '#ts-matt-toggle', function(e) {
+  e.preventDefault();
+  $(".ts-project-container--matt").toggleClass("ts-project-container--show");
+  $(".ts-link--matt").toggleClass("ts-link--click--show");
 });
