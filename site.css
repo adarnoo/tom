@@ -1,0 +1,207 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: helvetica;
+  cursor: default;
+  letter-spacing: 2px;
+  font-weight: normal;
+  -webkit-text-stroke: 0.5px;
+  font-size: 4.5vw;
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 100%;
+}
+
+html {
+  background-color: white;
+}
+
+/* Nav styliung */
+
+.ts-link-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  list-style: none;
+  z-index: 10;
+  text-transform: lowercase;
+}
+
+.ts-link {
+  color: blue;
+  text-decoration: underline;
+  transition: all 0.2s ease-in-out;
+}
+
+.ts-link:hover {
+  letter-spacing: 40px;
+  cursor: pointer;
+}
+
+.ts-link--click--show {
+  color: black
+}
+
+.ts-link--project {
+  display: none;
+  margin-left: 40px;
+}
+
+.ts-link--project--show {
+  display: block;
+}
+
+.ts-link--contact {
+  display: none;
+  margin-left: 40px;
+}
+
+.ts-link--contact--show {
+  display: block;
+}
+
+/* Pop up styling */
+
+.ts-project-container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: -400vh;
+  transition: all 1.5s;
+  opacity: 0;
+}
+
+.ts-project-container--show{
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+
+.ts-project-image {
+  position: absolute;
+  width: 15%;
+}
+
+.ts-flicker-image {
+  animation: flicker 555ms ease infinite;
+}
+
+.ts-flicker-image:hover {
+  animation: none;
+}
+
+.ts-project-image--emma-1 {
+  top: 5%;
+  left: 45%;
+}
+
+.ts-project-image--emma-2 {
+  bottom: 0%;
+  left: 0%;
+}
+
+.ts-project-image--emma-3 {
+  top: 40%;
+  left: 65%;
+}
+
+.ts-project-image--emma-4 {
+  top: 35%;
+  left: 85%;
+}
+
+.ts-project-image--emma-5 {
+  bottom: 0%;
+  left: 120%;
+}
+
+.ts-project-image--emma-6 {
+  top: 0%;
+  left: 130%;
+}
+
+.ts-project-image--other-1 {
+  top: 0%;
+  left: 20%;
+}
+
+.ts-project-image--other-2 {
+  bottom: 0%;
+  left: 50%;
+}
+
+.ts-project-image--other-3 {
+  top: 35%;
+  left: 130%;
+}
+
+/* Flicker styling */
+
+@-webkit-keyframes flicker {
+  0% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+
+.ts-flicker-image:nth-child(2n) {
+  animation: flicker 999ms ease infinite;
+}
+
+.ts-flicker-image:nth-child(3n) {
+  animation: flicker 555ms ease infinite;
+}
+
+.ts-flicker-image:nth-child(4n) {
+  animation: flicker 444ms ease infinite;
+}
+
+.ts-flicker-image:nth-child(5n) {
+  animation: flicker 333ms ease infinite;
+}
+
+.ts-flicker-image:nth-child(6n) {
+  animation: flicker 222ms ease infinite;
+}
+
+.ts-flicker-image:nth-child(7n) {
+  animation: flicker 555ms ease infinite;
+}
+
+.ts-flicker-image:nth-child(8n) {
+  animation: flicker 999ms ease infinite;
+}
+
+.ts-flicker-image:nth-child(9n) {
+  animation: flicker 888ms ease infinite;
+}
+
+.ts-flicker-image:nth-child(10n) {
+  animation: flicker 777ms ease infinite;
+}
+
+/* Mobile View */
+
+@media only screen and (min-device-width: 320px) and
+(max-device-width: 480px) and
+(-webkit-min-device-pixel-ratio: 2) {
+
+  body {
+    font-size: 8vw;
+  }
+
+}
