@@ -9,150 +9,76 @@
     <title>Tom So</title>
     <link rel="stylesheet" href="site.css">
     <link rel="shortcut icon" type="image/png" href="favicon.ico">
-    <script src="./custom.js" defer="defer"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <script rel="preload" src="./custom.js" defer="defer"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript"></script>
  </head>
     <body>
-    <div class="ts-body">
-      <div class="ts-link-container">
-        <div class="ts-link">
-          <li>Tom So</li>
-        </div>
-        <div class="ts-link ts-link--click--project" id="ts-project-toggle">
-          <li>Projects</li>
-        </div>
-        <div class="ts-link ts-link--project ts-link--emma" id="ts-emma-toggle">
-          <li>Emma Jing</li>
-        </div>
-        <div class="ts-link ts-link--project ts-link--geoffery" id="ts-geoffery-toggle">
-          <li>Geoffery Matautia</li>
-        </div>
-        <div class="ts-link ts-link--project ts-link--grace" id="ts-grace-toggle">
-          <li>Grace Watson</li>
-        </div>
-        <div class="ts-link ts-link--project ts-link--jing" id="ts-jing-toggle">
-          <li>Jing He</li>
-        </div>
-        <div class="ts-link ts-link--project ts-link--matt" id="ts-matt-toggle">
-          <li>Matt Hurley</li>
-        </div>
-        <div class="ts-link ts-link--click--contact" id="ts-contact-toggle">
-          <li>Contact</li>
-        </div>
-        <div class="ts-link ts-link--contact">
-          <li>sothatstom@gmail.com</li>
-        </div>
-      </div>
-
-      <div class="ts-project-container ts-project-container--emma">
-        <div class="ts-project-image ts-flicker-image ts-project-image--emma-1">
-          <img src="./images/emma-3.jpg">
-          <div class="ts-image-annotation">
-            e
+    <div class="ts-page">
+      <div class="ts-page-inner">
+        <div class="ts-main-nav-container">
+          <div class="ts-top-section">
+            Tom So is a stylist based in Tāmaki Makaurau, Aotearoa. This entire website is meant to be tilted on a 3 degree angle
           </div>
-        </div>
-        <div class="ts-project-image ts-flicker-image ts-project-image--side ts-project-image--emma-2">
-          <img src="./images/emma-1.jpg">
-          <div class="ts-image-annotation">
-            e
-          </div>
-        </div>
-        <div class="ts-project-image ts-flicker-image ts-project-image--emma-3">
-          <div class="ts-image-annotation">
-            e
-          </div>
-          <img src="./images/emma-2.jpg">
-        </div>
-      </div>
-
-      <div class="ts-project-container ts-project-container--geoffery">
-        <div class="ts-project-image ts-flicker-image ts-project-image--geoffery-1">
-          <img src="./images/geoffery.jpg">
-          <div class="ts-image-annotation">
-            g
+          <div class="ts-link-list">
+            <div class="ts-link">
+              <span id="ts-emma-toggle-entry">Emma Jing</span>
+            </div>
+            <div class="ts-link">
+              <span>Georffery Matautia</span>
+            </div>
+            <div class="ts-link">
+              <span>Grace Watson</span>
+            </div>
+            <div class="ts-link">
+              <span>Jing He</span>
+            </div>
+            <div class="ts-link">
+              <span>Matt Hurley</span>
+            </div>
           </div>
         </div>
       </div>
-
-      <div class="ts-project-container ts-project-container--grace">
-        <div class="ts-project-image ts-flicker-image ts-project-image--grace-1">
-          <img src="./images/grace-1.jpg">
-          <div class="ts-image-annotation">
-            gr
-          </div>
-        </div>
-        <div class="ts-project-image ts-flicker-image ts-project-image--grace-2">
-          <video autoplay muted loop playsinline preload="auto">
-            <source src="./images/grace-video.mp4" type="video/mp4">
-          </video>
-          <div class="ts-image-annotation">
-            gr
-          </div>
-        </div>
-      </div>
-
-      <div class="ts-project-container ts-project-container--jing">
-        <div class="ts-project-image ts-flicker-image ts-project-image--jing-1">
-          <div class="ts-image-annotation">
-            j
-          </div>
-          <img src="./images/jing-3.jpg">
-        </div>
-        <div class="ts-project-image ts-flicker-image ts-project-image--side ts-project-image--jing-2">
-          <img src="./images/jing-4.jpg">
-          <div class="ts-image-annotation">
-            j
-          </div>
-        </div>
-        <div class="ts-project-image ts-flicker-image ts-project-image--side ts-project-image--jing-3">
-          <div class="ts-image-annotation">
-            j
-          </div>
-          <img src="./images/jing-5.jpg">
-        </div>
-        <div class="ts-project-image ts-flicker-image ts-project-image--side ts-project-image--jing-4">
-          <img src="./images/jing-9.jpg">
-          <div class="ts-image-annotation">
-            j
-          </div>
-        </div>
-        <div class="ts-project-image ts-flicker-image ts-project-image--jing-5">
-          <img src="./images/jing-13.jpg">
-          <div class="ts-image-annotation">
-            j
-          </div>
-        </div>
-      </div>
-
-      <div class="ts-project-container ts-project-container--matt">
-        <div class="ts-project-image ts-flicker-image ts-project-image--side ts-project-image--matt-1">
-          <img src="./images/matt-2.jpg">
-          <div class="ts-image-annotation">
-            g
-          </div>
-        </div>
-        <div class="ts-project-image ts-flicker-image ts-project-image--side ts-project-image--matt-2">
-          <img src="./images/matt-4.jpg">
-          <div class="ts-image-annotation">
-            g
-          </div>
-        </div>
-        <div class="ts-project-image ts-flicker-image ts-project-image--side ts-project-image--matt-3">
-          <img src="./images/matt-6.jpg">
-          <div class="ts-image-annotation">
-            g
-          </div>
-        </div>
-        <div class="ts-project-image ts-flicker-image ts-project-image--matt-4">
-          <img src="./images/matt-9.jpg">
-          <div class="ts-image-annotation">
-            g
-          </div>
-        </div>
-      </div>
-
     </div>
+
+    <div class="ts-pop-up-container-screen ts-pop-up-container-screen--emma">
+      <div class="ts-pop-up-container">
+        <div class="ts-pop-up-container--inner">
+          <div class="ts-pop-up-title">
+            <span>Emma Jing</span><span class="ts-pop-up-close" id="ts-emma-toggle-exit">Close</span>
+          </div>
+          <div class="ts-pop-up-button-container">
+            <div class="ts-pop-up-button ts-pop-up-button--prev">
+              <button class="prev">
+                <img src="./images/tom-arrow-prev.png">
+              </button>
+            </div>
+            <div class="ts-pop-up-button ts-pop-up-button--next">
+              <button class="next">
+                <img src="./images/tom-arrow-next.png">
+              </button>
+            </div>
+          </div>
+          <section class="ts-slider-container ts-slider">
+            <div class="ts-slide">
+              <img src="./images/emma-1.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/emma-2.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/emma-3.jpg">
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
