@@ -18,4 +18,5 @@ $('.ts-slider-container').slick({
   infinite: true,
   prevArrow: $(".prev"),
   nextArrow: $(".next"),
+  vertical: true,
 });
