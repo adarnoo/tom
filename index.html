@@ -19,28 +19,75 @@
     <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript"></script>
  </head>
-    <body>
-    <div class="ts-page">
+    <body class="ts-overflow">
+    <div class="ts-page ts-page-blur">
       <div class="ts-page-inner">
         <div class="ts-main-nav-container">
           <div class="ts-top-section">
-            Tom So is a stylist based in Tāmaki Makaurau, Aotearoa. To get in contact please click <span>here.</span>
+            Tom So is a stylist based in Tāmaki Makaurau, Aotearoa. This entire site has been titled 3 degrees.
           </div>
           <div class="ts-link-list">
             <div class="ts-link">
-              <span id="ts-emma-toggle-entry">Emma Jing</span>
+              <span id="ts-emma-toggle">Emma Jing</span>
             </div>
             <div class="ts-link">
-              <span>Geoffery Matautia</span>
+              <span id="ts-grace-toggle">Grace Watson</span>
             </div>
             <div class="ts-link">
-              <span>Grace Watson</span>
+              <span id="ts-jing-toggle">Jing He</span>
             </div>
             <div class="ts-link">
-              <span>Jing He</span>
+              <span id="ts-matt-toggle">Matt Hurley</span>
             </div>
-            <div class="ts-link">
-              <span>Matt Hurley</span>
+          </div>
+        </div>
+        <div class="ts-feed-container">
+          <div class="ts-feed-inner-container">
+            <div class="ts-feed-item">
+              <div class="ts-feed-image" id="ts-emma-toggle">
+                <img src="./images/emma-3.jpg">
+              </div>
+            </div>
+
+            <div class="ts-feed-item">
+              <video autoplay muted loop class="ts-feed-image" id="ts-video-toggle">
+                <source src="./images/grace-video.mp4" type="video/mp4">
+              </video>
+            </div>
+
+            <div class="ts-feed-item">
+              <div class="ts-feed-image" id="ts-jing-toggle">
+                <img src="./images/jing-13.jpg">
+              </div>
+            </div>
+
+            <div class="ts-feed-item">
+              <div class="ts-feed-image" id="ts-matt-toggle">
+                <img src="./images/matt-3.jpg">
+              </div>
+            </div>
+
+            <div class="ts-feed-item">
+              <video autoplay muted loop class="ts-feed-image" id="ts-video-toggle">
+                <source src="./images/emma-video.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+
+        <div class="ts-footer-container">
+          <div class="ts-footer-container-inner">
+            <div class="ts-footer-text-container">
+              <div class="ts-footer-instagram">
+                <a href="https://www.instagram.com/sothatstom/" target="_blank">
+                  <span>Instagram</span>
+                </a>
+              </div>
+              <div class="ts-footer-email">
+                <a href="mailto:sothatstom@gmail.com" target="_blank">
+                  <span>sothatstom@gmail.com</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -51,32 +98,205 @@
       <div class="ts-pop-up-container">
         <div class="ts-pop-up-container--inner">
           <div class="ts-pop-up-title">
-            <span>Emma Jing</span><span class="ts-pop-up-close" id="ts-emma-toggle-exit">Close</span>
+            <span>Emma Jing</span><span class="ts-pop-up-close" id="ts-emma-toggle">Close</span>
           </div>
-          <section class="ts-slider-container ts-slider">
+          <section class="ts-slider-container-1 ts-slider">
+            <div class="ts-slide">
+              <img src="./images/emma-3.jpg">
+            </div>
             <div class="ts-slide">
               <img src="./images/emma-1.jpg">
             </div>
             <div class="ts-slide">
               <img src="./images/emma-2.jpg">
             </div>
-            <div class="ts-slide">
-              <img src="./images/emma-3.jpg">
-            </div>
           </section>
           <div class="ts-pop-up-button-container">
             <div class="ts-pop-up-button ts-pop-up-button--prev">
-              <button class="prev">
+              <button class="prev-1">
                 <img src="./images/tom-arrow-prev.png">
               </button>
             </div>
             <div class="ts-pop-up-button ts-pop-up-button--next">
-              <button class="next">
+              <button class="next-1">
                 <img src="./images/tom-arrow-next.png">
               </button>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="ts-pop-up-container-screen ts-pop-up-container-screen--grace">
+      <div class="ts-pop-up-container">
+        <div class="ts-pop-up-container--inner">
+          <div class="ts-pop-up-title">
+            <span>Grace Watson</span><span class="ts-pop-up-close" id="ts-grace-toggle">Close</span>
+          </div>
+          <section class="ts-slider-container-2 ts-slider">
+            <div class="ts-slide">
+              <img src="./images/grace-7.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/grace-2.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/grace-3.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/grace-5.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/grace-6.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/grace-8.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/grace-4.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/grace-9.jpg">
+            </div>
+          </section>
+          <div class="ts-pop-up-button-container">
+            <div class="ts-pop-up-button ts-pop-up-button--prev">
+              <button class="prev-2">
+                <img src="./images/tom-arrow-prev.png">
+              </button>
+            </div>
+            <div class="ts-pop-up-button ts-pop-up-button--next">
+              <button class="next-2">
+                <img src="./images/tom-arrow-next.png">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ts-pop-up-container-screen ts-pop-up-container-screen--jing">
+      <div class="ts-pop-up-container">
+        <div class="ts-pop-up-container--inner">
+          <div class="ts-pop-up-title">
+            <span>Jing He</span><span class="ts-pop-up-close" id="ts-jing-toggle">Close</span>
+          </div>
+          <section class="ts-slider-container-3 ts-slider">
+            <div class="ts-slide">
+              <img src="./images/jing-13.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/jing-9.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/jing-11.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/jing-12.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/jing-2.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/jing-1.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/jing-10.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/jing-6.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/jing-5.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/jing-3.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/jing-15.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/jing-14.jpg">
+            </div>
+          </section>
+          <div class="ts-pop-up-button-container">
+            <div class="ts-pop-up-button ts-pop-up-button--prev">
+              <button class="prev-3">
+                <img src="./images/tom-arrow-prev.png">
+              </button>
+            </div>
+            <div class="ts-pop-up-button ts-pop-up-button--next">
+              <button class="next-3">
+                <img src="./images/tom-arrow-next.png">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ts-pop-up-container-screen ts-pop-up-container-screen--matt">
+      <div class="ts-pop-up-container">
+        <div class="ts-pop-up-container--inner">
+          <div class="ts-pop-up-title">
+            <span>Matt Hurley</span><span class="ts-pop-up-close" id="ts-matt-toggle">Close</span>
+          </div>
+          <section class="ts-slider-container-4 ts-slider">
+            <div class="ts-slide">
+              <img src="./images/matt-3.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/matt-5.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/matt-4.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/matt-2.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/matt-6.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/matt-7.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/matt-10.jpg">
+            </div>
+            <div class="ts-slide">
+              <img src="./images/matt-11.jpg">
+            </div>
+          </section>
+          <div class="ts-pop-up-button-container">
+            <div class="ts-pop-up-button ts-pop-up-button--prev">
+              <button class="prev-4">
+                <img src="./images/tom-arrow-prev.png">
+              </button>
+            </div>
+            <div class="ts-pop-up-button ts-pop-up-button--next">
+              <button class="next-4">
+                <img src="./images/tom-arrow-next.png">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ts-video-container-screen">
+      <div class="ts-video-close-container">
+        <div class="ts-video-close">
+          <span id="ts-video-toggle">Close</span>
+        </div>
+      </div>
+      <div class="ts-video-container">
+          <div class="ts-video-container">
+            <div class="ts-video-container-inner">
+              <video controls>
+                <source src="./images/emma-video.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
       </div>
     </div>
 
