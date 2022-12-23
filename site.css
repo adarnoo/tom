@@ -254,7 +254,7 @@ button:hover {
   }
 
   .ts-feed-inner-container {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 
   .ts-feed-inner-container--medium {
