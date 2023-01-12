@@ -41,6 +41,7 @@ button:hover {
 
 .ts-page-inner {
   overflow: hidden;
+  padding-top: 500px;
 }
 
 .ts-page--active {
@@ -50,6 +51,34 @@ button:hover {
 
 .ts-page-blur--active {
   filter: blur(3px);
+}
+
+.ts-tom-logo-container {
+  position: fixed;
+  width: 50%;
+  margin: 0 25%;
+  top: 100px;
+  z-index: 0;
+}
+
+.ts-tom-logo {
+  width: 100%;
+}
+
+/* Split Container */
+
+.ts-split-image-container {
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 40px;
+  z-index: 100;
+}
+
+.ts-split-image {
+  width: calc(50% - 20px);
+  z-index: 100;
 }
 
 /* Nav styling */
